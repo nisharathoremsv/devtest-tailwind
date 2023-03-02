@@ -1,0 +1,180 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.buttonContainer {
+  width: "100%";
+  padding: "10px 0px";
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #F8991F !important;
+}
+
+.MuiCheckbox-root {
+  padding: 0 !important;
+}
+
+select:focus {
+  outline: none;
+}
+
+.inviteBtn {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  height: fit-content;
+}
+
+.inviteBtn2 {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  margin-left: -14px !important;
+}
+
+.vl {
+  height: 25px;
+  background: linear-gradient(to right,
+      transparent 0%,
+      transparent calc(50% - 0.81px),
+      #E3E3E3 calc(50% - 0.8px),
+      #E3E3E3 calc(50% + 0.8px),
+      transparent calc(50% + 0.81px),
+      transparent 100%);
+  margin-top: 18px;
+}
+
+.formSection {
+  background: #8080802e;
+  padding: 30;
+}
+
+.formContainer {
+  padding: 40px;
+}
+
+.bottom-arrow {
+  content:'';
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #F8991F ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.custScroll {
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 290px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #E8E8E8; 
+  border-radius: 10px;
+  height: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  height: 20px;
+  border-radius: 10px;
+}
+
+
+
+.css-b62m3t-container {
+  width: inherit;
+}
+
+.css-13cymwt-control {
+  width: 100%;
+  border-radius: 13px !important;
+  padding: 6px;
+  font-size: 17px;
+  border: none !important;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+input:focus {
+  outline: none;
+}
+
+.styled__control-is-focused {
+  outline: none;
+}
+
+.styled__control-is-selected {
+  outline: none;
+}
+
+.headerContainer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.iconHeader {
+  margin-right: 25px;
+}
+
+.profileBlock {
+  border-right: 1px solid #ddddde;
+}
+
+@media screen and (max-width: 480px) {
+  .profileBlock {
+    border-right: none;
+  }
+}
+
+.formButton {
+  margin-bottom: 10px !important;
+  width: 130px !important;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
