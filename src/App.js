@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Typography,Grid, Button, Avatar } from '@mui/material';
+import { Typography,Grid, Avatar } from '@mui/material';
 import ResponsiveAppBar  from './Header'
 import SubHeader from './SubHeader'
 import RoomIcon from '@mui/icons-material/Room';
@@ -12,14 +11,8 @@ import Activites from  './Activies';
 import Family from './Family';
 import Invitation from './Invitation';
 
-import Hidden from '@mui/material/Hidden';
 
-
-function App() {
-  const options = [
-    { value: "left", label: "Open Left" },
-    { value: "right", label: "Open Right" },
-   ]
+function App() {  
   return (
     <div className="App">
       <ResponsiveAppBar />
